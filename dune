@@ -1,0 +1,5 @@
+(executable
+ (name gps)
+ (libraries lwt.unix cstruct-lwt cstruct-sexp sexplib)
+ (preprocess (pps ppx_cstruct))
+)
